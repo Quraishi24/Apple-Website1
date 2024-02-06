@@ -1,0 +1,310 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.heroImage{
+  max-width: 100%;
+}
+.header {
+  padding-top: 15px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0;
+  width: 380px;
+  height: 460px;
+}
+.header a{
+  text-decoration: none;
+  font-size: large;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.series {
+  color: rgb(173, 6, 6);
+  font-size: 0.9rem;
+  font-family: arial;
+}
+.description {
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 123.81% */
+  letter-spacing: 0.336px;
+  display: flex;
+  flex-direction: column;
+}
+ a {
+  text-decoration: none;
+  color: #2997ff;
+  text-align: center;
+  font-family: "SF Pro Text";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: px; /* 123.536% */
+  letter-spacing: 0.374px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.image{
+  width: 400px;
+  height: 300px;
+}
+.header span{
+  padding-top: 15px;
+}
+.heroImage{
+  width: 1180px;
+}
+.listStyle{
+  display: flex;
+  flex-direction: row;
+}
+.footerDiv{
+  max-width: 100%;
+  background-color: #fcfbfb;
+}
+.footerList{
+  display: flex;
+  height: 100%;
+  padding-left: 20px;
+  
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.footerPara{
+  font-size: .9rem;
+  display: flex;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  padding-left: 10px;
+  justify-content: space-between;
+}
+.anchorF{
+  padding-right: 7px;
+  font-size: 14px;
+}
+.anchorF a{
+  text-decoration: none;
+  color: black;
+}
+.footer{
+  font-size: .8rem;
+  text-align: left;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+.footer a{
+  font-size: 13px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-decoration: none;
+}
+.heroHead{
+  font-family: SF Pro Text;
+  font-weight: 900px;
+  font-size: 56px;
+}
+.heroDiv a{
+  text-decoration: none;
+  font-size: large;
+}
+.heroDesc{
+  font-family: SF Pro Text;
+  font-weight: 400;
+  font-size: 28px;
+}
+.image{
+  height: 240px;
+  max-width: 100%;
+}
+@media screen and (max-width:700px){
+  .heroImage{
+    max-width: 100%;
+  }
+  .description{
+    font-size: 17px;
+  }
+  .heroDesc{
+    font-size: 30px;
+  }
+  .image{
+    height: 170px;
+  }
+  .heroHead{
+    font-size: 40px;
+  }
+  .header a{
+    font-size: 20px;
+  }
+  .header{
+    width: 380px;
+    font-size: 2rem;
+  }
+  .para{
+    max-width: 100%;
+  }
+  .listStyle{
+    flex-wrap: wrap;
+  }
+  .footer{
+    font-size: .8rem;
+  }
+  .footer a{
+    font-size: .8rem;
+  }
+  .footerPara{
+    display: block;
+    text-align: left;
+    font-size: .9rem;
+  }
+  .anchorF{
+    padding-top: 10px;
+  }
+  .anchorF a{
+    font-size: .9rem;
+    text-decoration: none;
+    color: black;
+    padding-right: 2px;
+    padding-left: 0;
+  }
+  .footerList{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .heroDiv a{
+    font-size: 19px;
+  }
+}
+@media screen and (max-width:500px){
+  .heroImage{
+    max-width: 100%;
+  }
+  .description{
+    font-size: 12px;
+  }
+  .heroDiv a{
+    font-size: 14px;
+  }
+  .image{
+    height: 130px;
+  }
+  .heroDesc{
+    font-size: 15px;
+  }
+  .heroHead{
+    font-size: 25px;
+  }
+  .header a{
+    font-size: 12px;
+  }
+  .header{
+    width: 100%;
+  }
+  .para{
+    max-width: 100%;
+  }
+  .listStyle{
+    flex-wrap: wrap;
+  }
+  .footer{
+    font-size: .64rem;
+    line-height: 20px;
+  }
+  .footer a{
+    font-size: .64rem;
+  }
+  .footerPara{
+    display: block;
+    text-align: left;
+    font-size: .6rem;
+  }
+  .anchorF{
+    padding-top: 6px;
+  }
+  .anchorF a{
+    font-size: .5rem;
+    text-decoration: none;
+    color: black;
+    padding-right: 2px;
+    text-align: left;
+  }
+  .footerList{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width:300px){
+  .heroImage{
+    max-width: 100%;
+  }
+  .description{
+    font-size: 9px;
+  }
+  .heroDiv a{
+    font-size: 5px;
+  }
+  .image{
+    height: 130px;
+  }
+  .heroDesc{
+    font-size: 10px;
+  }
+  .heroHead{
+    font-size: 19px;
+  }
+  .header a{
+    font-size: 3px;
+  }
+  .header{
+    width: 100%;
+    font-size: 1rem;
+  }
+  .para{
+    max-width: 100%;
+  }
+  .listStyle{
+    flex-wrap: wrap;
+  }
+  .footer{
+    font-size: .49rem;
+    line-height: 20px;
+  }
+  .footer a{
+    font-size: .49rem;
+  }
+  .footerPara{
+    display: block;
+    text-align: left;
+    font-size: .6rem;
+  }
+  .anchorF{
+    padding-top: 6px;
+  }
+  .anchorF a{
+    font-size: .45rem;
+    text-decoration: none;
+    color: black;
+    padding-right: 2px;
+    text-align: left;
+  }
+  .footerList{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
